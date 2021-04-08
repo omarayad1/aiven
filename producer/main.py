@@ -4,6 +4,7 @@ import kafka
 from json import dumps
 from helpers import perform_check
 
+
 def main():
     producer = kafka.KafkaProducer(
         bootstrap_servers=config.get_config("KAFKA_URI"),

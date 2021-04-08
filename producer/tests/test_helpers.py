@@ -17,5 +17,6 @@ class Test(unittest.TestCase):
             )
             mock.assert_called_once_with(self.url)
 
+
 if __name__ == "__main__":
     unittest.main()
